@@ -5,15 +5,15 @@ import { Play, Mail, Instagram, Youtube } from "lucide-react";
 
 export default function Portfolio() {
   const projects = [
-    {
-      title: "Music Video Edit",
-      desc: "Dynamic cuts, transitions, and color grading for a music video.",
-      video: "https://www.youtube.com/embed/sample1",
+   {
+      title: "Shortfilm Editor",
+      desc: "Dynamic cuts, transitions, and color grading for a Shortfilm Named - Red Moon.",
+      video: "https://drive.google.com/file/d/1cMzLT-ve_tBSnn8-3MBtEVSlYnvrZAS-/view?usp=drive_link",
     },
     {
-      title: "Short Film Trailer",
-      desc: "Cinematic trailer edit with dramatic pacing and sound design.",
-      video: "https://www.youtube.com/embed/sample2",
+      title: "Fan Made Trailer",
+      desc: "Cinematic trailer edit with dramatic pacing and sound design for a Movie Named DABBE.",
+      video: "https://drive.google.com/file/d/1NgFnFL82U0ld3nj-2KX1lh_GmPHmUmBK/view?usp=drive_link",
     },
     {
       title: "Ad Commercial Edit",
