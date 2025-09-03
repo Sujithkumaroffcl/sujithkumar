@@ -1,84 +1,64 @@
-import { motion } from "framer-motion";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Play, Mail, Instagram, Youtube } from "lucide-react";
+# 🎬 Sujithkumar | Video Editor Portfolio
 
-export default function Portfolio() {
-  const projects = [
-   {
-      title: "Shortfilm Editor",
-      desc: "Dynamic cuts, transitions, and color grading for a Shortfilm Named - Red Moon.",
-      video: "https://drive.google.com/file/d/1cMzLT-ve_tBSnn8-3MBtEVSlYnvrZAS-/view?usp=drive_link",
-    },
-    {
-      title: "Fan Made Trailer",
-      desc: "Cinematic trailer edit with dramatic pacing and sound design for a Movie Named DABBE.",
-      video: "https://drive.google.com/file/d/1NgFnFL82U0ld3nj-2KX1lh_GmPHmUmBK/view?usp=drive_link",
-    },
-    {
-      title: "Ad Commercial Edit",
-      desc: "Fast-paced editing for a product launch commercial.",
-      video: "https://www.youtube.com/embed/sample3",
-    },
-  ];
+Welcome to my GitHub portfolio! I’m Sujithkumar, a passionate video editor specializing in motion graphics and creative storytelling. Here, you’ll find a showcase of my top video projects and timeline screenshots that highlight my workflow and editing style.
 
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white px-6 py-10">
-      {/* Header */}
-      <motion.div
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="text-center mb-12"
-      >
-        <h1 className="text-4xl font-bold mb-2">🎬 My Video Editing Portfolio</h1>
-        <p className="text-gray-400">Crafting stories through cuts, transitions, and sound</p>
-      </motion.div>
+---
 
-      {/* Projects */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((proj, i) => (
-          <motion.div
-            key={i}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: i * 0.2 }}
-          >
-            <Card className="bg-gray-800 border-none shadow-lg rounded-2xl overflow-hidden">
-              <iframe
-                src={proj.video}
-                title={proj.title}
-                className="w-full h-48"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-              <CardContent className="p-4">
-                <h2 className="text-xl font-semibold mb-2">{proj.title}</h2>
-                <p className="text-gray-400 text-sm mb-4">{proj.desc}</p>
-              </CardContent>
-            </Card>
-          </motion.div>
-        ))}
-      </div>
+## 📹 Portfolio Videos
 
-      {/* Contact Section */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        className="text-center mt-16"
-      >
-        <h2 className="text-2xl font-semibold mb-4">📩 Get in Touch</h2>
-        <div className="flex justify-center gap-4">
-          <Button variant="outline" className="flex items-center gap-2">
-            <Mail className="w-4 h-4" /> Email
-          </Button>
-          <Button variant="outline" className="flex items-center gap-2">
-            <Instagram className="w-4 h-4" /> Instagram
-          </Button>
-          <Button variant="outline" className="flex items-center gap-2">
-            <Youtube className="w-4 h-4" /> YouTube
-          </Button>
-        </div>
-      </motion.div>
-    </div>
-  );
-}
+| Title                | Preview | Description                          |
+|----------------------|:-------:|--------------------------------------|
+| **Motion Magic**     | [Watch](videos/motion-magic.mp4) | High-energy promo using dynamic motion graphics. |
+| **Cinematic Teaser** | [Watch](videos/cinematic-teaser.mp4) | Film-style trailer with dramatic edits. |
+| **Ad Animation**     | [Watch](videos/ad-animation.mp4) | Animated ad with seamless transitions. |
+| **Event Highlights** | [Watch](videos/event-highlights.mp4) | Fast-paced event recap reel.           |
+| **Brand Story**      | [Watch](videos/brand-story.mp4) | Visual storytelling for a brand launch.|
+
+*Click the links above to view each video (locally or on your preferred platform).*
+
+---
+
+## 🗂️ Timeline Screenshots
+
+Below are snapshots of my editing timelines, showcasing complex keyframes, layered effects, and motion graphic arrangements:
+
+| Screenshot | Project            |
+|:----------:|-------------------|
+| ![](screenshots/timeline1.png) | Motion Magic         |
+| ![](screenshots/timeline2.png) | Cinematic Teaser     |
+| ![](screenshots/timeline3.png) | Ad Animation         |
+| ![](screenshots/timeline4.png) | Event Highlights     |
+| ![](screenshots/timeline5.png) | Brand Story          |
+| ![](screenshots/timeline6.png) | Social Media Promo   |
+| ![](screenshots/timeline7.png) | Animated Explainer   |
+| ![](screenshots/timeline8.png) | Music Video Mashup   |
+
+---
+
+## ✨ Motion Graphics Style
+
+My editing style is inspired by modern motion graphics:
+- **Dynamic transitions**
+- **Animated text elements**
+- **Layered visual effects**
+- **Rhythmic cuts and pacing**
+- **Color grading for mood and impact**
+
+---
+
+## 🚀 About Me
+
+I use tools like Adobe Premiere Pro, After Effects, and DaVinci Resolve to craft compelling video stories. I love collaborating with brands, artists, and content creators to bring visions to life.
+
+- [LinkedIn](https://www.linkedin.com/in/sujithkumar)  
+- [Instagram](https://www.instagram.com/sujithkumar_video)  
+- [YouTube](https://www.youtube.com/@sujithkumarvideo)  
+
+---
+
+> **Want to collaborate or hire me?**  
+> [Contact me](mailto:sujithkumar.video@gmail.com) or open an [issue](https://github.com/Sujithkumaroffcl/sujithkumar/issues) on this repo!
+
+---
+
+### 📁 Folder Structure
