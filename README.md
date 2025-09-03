@@ -6,7 +6,7 @@
 </head>
 <body>
   <h1>Hello, I'm Sujith Kumar!</h1>
-  <p>Welcome to my portfolio page.</p>
+  <p>Welcome to My Portfolio .</p>
   <!-- Add your projects and details here -->
 </body>
 </html>
